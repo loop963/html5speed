@@ -10,13 +10,13 @@ systemctl enable docker
 
 安装HTML5 Speedtest
 
-docker run -d -p 6608:80 ilemonrain/html5-speedtest:alpine
+docker run -d -p 6608:80 ch6896/html5speedd
 
 参数详解：
 
 -t：启动后显示日志，可用Ctrl+C转入后台运行
 -d：后台模式启动
--p 6688:80：镜像映射端口，修改6688为任意端口即可
+-p 6608:80：镜像映射端口，修改6608为任意端口即可
 
 如果打不开，需要宝塔面板或VPS控制后台放行6688端口
 
